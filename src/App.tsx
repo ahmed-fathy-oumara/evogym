@@ -1,12 +1,10 @@
+import Navbar from "./scenes/navbar"
 
-
-function App() {
-
+const App = () => {
   return (
-    <div className="app">
-      App
+    <div className="app bg-gray-20">
+      <Navbar />
     </div>
   )
 }
-
 export default App
